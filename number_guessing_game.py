@@ -13,7 +13,7 @@
 import random
 
 number_to_guess = random.randint(1, 100)
-print('Your number is ready! You can start now')
+print('Your number is ready! You can start now:')
 while True:
     try:
         guess = int(input('Guess the number between 1 to 100: '))
